@@ -110,28 +110,35 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 
 h1, .h1 {
   font-size: calc(1.375rem + 1.5vw);
+  margin-top: 2em;
 }
 @media (min-width: 1200px) {
   h1, .h1 {
     font-size: 2.5rem;
+
   }
 }
 
 h2, .h2 {
   font-size: calc(1.325rem + 0.9vw);
+  margin-top: 1em;
+
 }
 @media (min-width: 1200px) {
   h2, .h2 {
     font-size: 2rem;
+
   }
 }
 
 h3, .h3 {
   font-size: calc(1.3rem + 0.6vw);
+  margin-top: 1em;
 }
 @media (min-width: 1200px) {
   h3, .h3 {
     font-size: 1.75rem;
+
   }
 }
 
@@ -174,7 +181,10 @@ div {
   width: 50%;
 }
 article{
-  padding-top: 1em;
+  padding-top: 10em;
+}
+#intro{
+  margin-top: 2em;
 }
 
 abbr[title],
