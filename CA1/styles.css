@@ -173,6 +173,9 @@ div {
   padding-top: 10px;
   width: 50%;
 }
+article{
+  padding-top: 1em;
+}
 
 abbr[title],
 abbr[data-bs-original-title] {
