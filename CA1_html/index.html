@@ -2,21 +2,53 @@
 <html lang="en">
     <head>
         <html lang="en"></html>
-
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
+        <meta name="description" content="Client Side programming CA1. Recreating a wikipedia article" />
+        <meta name="author" content="Wikipedia" />
         <title>Charles the Beloved, the Mad, the Fool</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
+        <!-- Bootstrap's theme downloaded from https://github.com/StartBootstrap/startbootstrap-bare -->
+        <link href="styles.css" rel="stylesheet" />
+        <nav></nav>        <!-- TO BE FILLED -->
+
     </head>
+    
     <body>
-      <h1>Charles VI of France</h1>
-      <p>From Wikipedia, the free encyclopedia
-      (Redirected from Charles the Beloved) </p>
+              <!-- Responsive navbar-->
+              <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container">
+                    <a class="navbar-brand" href="https://en.wikipedia.org/wiki/Charles_VI_of_France">Wikipedia</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><hr class="dropdown-divider" /></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+      <!-- page content -->
+      <div class="container"> <header>
+        <div class="text-center mt-5">
+            <h1>Charles VI of France</h1>
+            <p class="lead">From Wikipedia, the free encyclopedia </p>
+            <p>(Redirected from Charles the Beloved)</p>
+          </div>
+        </header>
+        
+      <main>
       <p>Charles VI (3 December 1368 – 21 October 1422), nicknamed the Beloved (French: le Bien-Aimé) and later the Mad (French: le Fol or le Fou), was King of France from 1380 until his death in 1422. He is known for his mental illness and psychotic episodes which plagued him throughout his life.
 
         He ascended the throne at the young age of eleven, his father leaving behind a favorable military situation, marked by the reconquest of most of the English possessions in France. First placed under the regency of his uncles, the Dukes of Burgundy, Anjou, Berry, and Bourbon, Charles decided in 1388, aged 20, to emancipate himself. In 1392, while leading a military expedition against the Duchy of Brittany, the king suffered a first attack of delirium, during which he attacked his own men in the forest of Le Mans. A few months later, following the Bal des Ardents (January 1393) where he narrowly escaped death from burning, Charles was again placed under the regency of his uncles, the dukes of Berry and Burgundy.
@@ -24,7 +56,8 @@
         From then on, and until his death, the king alternated between periods of mental instability and lucidity. Power was held by his influential uncles and by his wife, Queen Isabeau of Bavaria. His younger brother, Louis d'Orléans, also aspired to the regency and saw his influence grow. The enmity between Louis d'Orléans and John the Fearless, successor of Philip the Bold as Duke of Burgundy, plunged France into the Armagnac–Burgundian Civil War of 1407-1435, during which the king found himself successively controlled by one or the other of the two parties.
         
         In 1415 his army was crushed by the English at the Battle of Agincourt, which led to Charles' signing of the Treaty of Troyes, which entirely disinherited his son, the Dauphin and future Charles VII, in favour of his future son-in-law Henry V of England. Henry was thus made regent and heir to the throne of France, and Charles married him to his daughter Catherine de Valois. However, Henry died shortly before Charles, which gave the House of Valois the chance to continue the fight against the English, leading to their eventual victory and the end of the Hundred Years' War in 1453. He was succeeded in law by his grandson, the infant Henry VI of England, but Charles' own son crowned himself first in Reims and was regarded as the true heir by the French.</p>
-    </body>
+
+      
     <h2>
       Early life
     </h2>
@@ -51,5 +84,14 @@
     </p>
     <h2>Marriage and issue</h2>
     <! --aca va tabla -->
-
+    </main>
+    <footer>
+      <p>From Wikipedia, the free encyclopedia</p>  
+    </footer>
+  </div>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="scripts.js"></script>
+  </body>
 </html>
